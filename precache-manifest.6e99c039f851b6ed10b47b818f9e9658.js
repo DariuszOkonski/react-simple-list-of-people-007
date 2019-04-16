@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-simple-list-of-people-007/static/js/runtime~main.f0d53eec.js"
   },
   {
-    "revision": "fb1ea94e30ea59725608",
+    "revision": "56d702699a31f6484de6",
     "url": "/react-simple-list-of-people-007/static/js/main.fa31182e.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/react-simple-list-of-people-007/static/js/2.65aa1cca.chunk.js"
   },
   {
-    "revision": "fb1ea94e30ea59725608",
-    "url": "/react-simple-list-of-people-007/static/css/main.e7fbc4c6.chunk.css"
+    "revision": "56d702699a31f6484de6",
+    "url": "/react-simple-list-of-people-007/static/css/main.9f86109f.chunk.css"
   },
   {
-    "revision": "efe273c6e7d77970640acbcdbb056ec9",
+    "revision": "0d8c6dc2392430849ae5bd84e5eaf6c5",
     "url": "/react-simple-list-of-people-007/index.html"
   }
 ];

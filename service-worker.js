@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-simple-list-of-people-007/precache-manifest.9ac932749c9f99a25d705845d00957d4.js"
+  "/react-simple-list-of-people-007/precache-manifest.6e99c039f851b6ed10b47b818f9e9658.js"
 );
 
 workbox.clientsClaim();

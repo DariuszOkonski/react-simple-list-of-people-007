@@ -18,16 +18,36 @@ const people = [
 ]
 
 class App extends Component {
+  state = {
+    sex: 'all',
+  }
+
+  handleClick = (sex) => {
+    this.setState({
+      sex
+    })
+  }
 
   showPeople = () => {
-    return people.map(person => <SinglePersonDisplay key={person.id} person={person} />)
+    switch (this.state.sex) {
+      case 'all':
+        return people.map(person => <SinglePersonDisplay key={person.id} person={person} />);
+      case 'female':
+        const women = people.filter(person => person.sex === 'female');
+        return women.map(person => <SinglePersonDisplay key={person.id} person={person} />);
+      case 'male':
+        const man = people.filter(person => person.sex === 'male');
+        return man.map(person => <SinglePersonDisplay key={person.id} person={person} />);
+      default:
+        return <h1>No data found</h1>
+    }
   }
 
   render() {
     return (
       <div className="app">
         <Header />
-        <Buttons />
+        <Buttons click={this.handleClick} />
         {this.showPeople()}
       </div>
     );

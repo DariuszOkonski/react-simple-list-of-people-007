@@ -1,12 +1,12 @@
 import React from 'react';
 import './Buttons.css';
 
-const Buttons = () => {
+const Buttons = (props) => {
   return (
     <div className="buttons">
-      <button>All</button>
-      <button>Women</button>
-      <button>Man</button>
+      <button onClick={() => props.click('all')}>All</button>
+      <button onClick={() => props.click('female')}>Women</button>
+      <button onClick={() => props.click('male')}>Man</button>
     </div>
   );
 }

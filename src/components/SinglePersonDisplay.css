@@ -1,0 +1,16 @@
+div.singelPersonDisplay {
+  background-color: #fff;
+  width: 95%;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+div.singelPersonDisplay h3,
+div.singelPersonDisplay h4,
+div.singelPersonDisplay p {
+  margin: 5px 0;
+}
+
+div.singelPersonDisplay p span {
+  font-weight: bold;
+}

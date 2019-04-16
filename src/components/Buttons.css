@@ -1,0 +1,16 @@
+div.buttons button {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+  min-width: 80px;
+  border: 1px solid black;
+  background-color: #fff;
+  transition: .2s;
+  cursor: pointer;
+  outline: none;
+}
+
+div.buttons button:hover {
+  background-color: black;
+  color: #fff;
+}
